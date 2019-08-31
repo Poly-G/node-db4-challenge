@@ -1,0 +1,16 @@
+{
+    "name": "webdb4",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "server": "nodemon index.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "helmet": "^3.20.0",
+        "knex": "^0.19.3",
+        "knex-cleaner": "^1.3.0",
+        "nodemon": "^1.19.1",
+        "sqlite": "^3.0.3"
+    }
+}
